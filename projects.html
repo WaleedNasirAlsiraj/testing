@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Coding By Waleed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="top-btn">
+        <span  ><a href="#home" style="color: #5B3CD1; background-color: #101010; font-size: 40px; padding: 0px 10px 5px 10px; border-radius: 100px; position: absolute; left: 95%; bottom: 5%; font-weight: 900; position: fixed; cursor: pointer; text-decoration: none;">&#8679;</a></span>
+    </div>
+    <header id="home">
+        <nav>
+            <div class="logo one">
+                <p><span>Waleed </span>Nasir</p>
+            </div>
+            <div class="menu two">
+                <ul>
+                    <li><a href="/index.html">
+                            Home
+                        </a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="servivces.html">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu three">
+                <ul>
+                    <li><a href="https://www.instagram.com/codingbywaleed/" target="_blank"><img width="20px" src="/icons/icons8-instagram-30.png"></a></li>
+                    <li><a href="https://github.com/WaleedNasirAlsiraj"><img width="20px" src="/icons/icons8-github-30(1).png" target="_blank"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="title" style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="title four" >
+            <p><b>Front-End Developer</b></p>
+            <h1>Check Out My<br>Projects</h1>
+        </div>
+    </section>
+    <div class="col" style="margin-top: 50px;" id="work">
+        <div class="col-1">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+        </div>
+        <div class="col-2">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+            <img class="reveal" width="300px" src="/icons/codingbywaleed_propic.jpg">
+        </div>
+    </div>
+    <div id="hehe" style="background-color: #202020; margin-top: 100px;">
+        
+        <footer>
+            <div class="contain">
+
+                <div class="wrapper" id="contact">
+              
+                  <div class="form reveal">
+                    <h4>GET IN TOUCH</h4>
+                    <h2 class="form-headline">Send us a message</h2>
+                    <form id="submit-form" action="https://formsubmit.co/47b55c23575e5e0b01910e6ad7297eb7" method="POST">
+                      <p>
+                        <input id="name" name="Name" class="form-input" type="text" placeholder="Your Name*">
+                        <small class="name-error"></small>
+                      </p>
+                      <p>
+                        <input id="email" name="Email" class="form-input" type="email" placeholder="Your Email*">
+                        <small class="name-error"></small>
+                      </p>
+                      <p class="full-width">
+                        <textarea  minlength="20" id="message" name="Message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                        <small></small>
+                      </p>
+                      <p class="full-width">
+                        <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                        <button class="reset-btn" onclick="reset()">Reset</button>
+                      </p>
+                    </form>
+                  </div>
+              
+                  <div class="contacts contact-wrapper reveal">
+              
+                    <ul>
+                      <li>I Am A Experienced Front End Developer. I Am From <span class="highlight-text-grey">Pakistan.</span> Feel Free To Send A Message. Need Any Help <a id="help" href="#">Click Here</a>
+                    </li>
+                      <span class="hightlight-contact-info">
+                        <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i>Codingbywaleed@gmail.com</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+923438981286"><span class="highlight-text">+92-343-898-1286</span></a></li>
+                      </span>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <div class="lower">
+                <nav>
+                    <div class="logo reveal">
+                        <p><span>Waleed </span>Nasir</p>
+                    </div>
+                    <div class="copy menu reveal">
+                        <p><b> &copy; <span id="year"></span>. All Right Reserved</b></p>
+                    </div>
+                    <div class="menu reveal">
+                        <ul>
+                            <li><a href="https://www.instagram.com/codingbywaleed/" target="_blank"><img width="20px" src="/icons/icons8-instagram-30.png"></a></li>
+                <li><a href="https://github.com/WaleedNasirAlsiraj"><img width="20px" src="/icons/icons8-github-30(1).png" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
